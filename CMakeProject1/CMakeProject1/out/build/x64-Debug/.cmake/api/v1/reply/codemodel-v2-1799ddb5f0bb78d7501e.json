@@ -1,0 +1,142 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "SQLiteCpp-3.1.1",
+					"childIndexes" : 
+					[
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-SQLiteCpp-3.1.1-Debug-002483218b7c774ff3e7.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "SQLiteCpp-3.1.1",
+					"targetIndexes" : 
+					[
+						1,
+						2
+					]
+				},
+				{
+					"build" : "SQLiteCpp-3.1.1/sqlite3",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-SQLiteCpp-3.1.1.sqlite3-Debug-1e9a4153179986cee99b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "SQLiteCpp-3.1.1/sqlite3",
+					"targetIndexes" : 
+					[
+						3
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Project",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1,
+						2
+					],
+					"name" : "SQLiteCpp",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "CMakeProject1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-CMakeProject1-Debug-3bb2c737b6e82e0d61d5.json",
+					"name" : "CMakeProject1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "SQLiteCpp::@d2617ed7cf09ae614784",
+					"jsonFile" : "target-SQLiteCpp-Debug-a15d9cab766708be98ce.json",
+					"name" : "SQLiteCpp",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "SQLiteCpp_cpplint::@d2617ed7cf09ae614784",
+					"jsonFile" : "target-SQLiteCpp_cpplint-Debug-c138c9d9b85cba69bf14.json",
+					"name" : "SQLiteCpp_cpplint",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "sqlite3::@547075aa9d65dea8d70b",
+					"jsonFile" : "target-sqlite3-Debug-4828e005fc785dc85abd.json",
+					"name" : "sqlite3",
+					"projectIndex" : 1
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/jmteo/Documents/Projects/Experiments/CMakeProject1/CMakeProject1/out/build/x64-Debug",
+		"source" : "C:/Users/jmteo/Documents/Projects/Experiments/CMakeProject1/CMakeProject1"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}
